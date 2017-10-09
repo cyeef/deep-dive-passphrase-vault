@@ -13,7 +13,7 @@ public class UsageStrings {
     bundle = ResourceBundle.getBundle(Constants.USAGE_BUNDLE);
 
   }
-  public ResourceBundle getBundle() {
+  public static ResourceBundle getBundle() {
     return Singleton.INSTANCE.bundle;
 
   }

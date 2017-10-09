@@ -1,6 +1,7 @@
 package edu.cnm.deepdive.passphrase;
 
-import com.sun.org.apache.regexp.internal.RE;
+
+
 import edu.cnm.deepdive.passphrase.util.Constants;
 import java.util.Enumeration;
 import java.util.LinkedList;
