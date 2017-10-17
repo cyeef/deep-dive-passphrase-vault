@@ -6,7 +6,7 @@ import java.util.ResourceBundle;
 public class UsageStrings {
    private final ResourceBundle bundle;
   //Singleton has to
-  private static class Singleton {
+ private static class Singleton {
     private static final UsageStrings INSTANCE = new UsageStrings();
   }
   private UsageStrings() {

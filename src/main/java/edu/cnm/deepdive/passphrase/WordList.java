@@ -13,6 +13,8 @@ public class WordList {
 
    private final String[] words;
 
+
+
    private static class Singleton {
       private static final WordList INSTANCE = new WordList();
    }
@@ -25,7 +27,7 @@ public class WordList {
       words = wordlist.toArray(new String[wordlist.size()]);
    }
 
-   public static String get(Random rng) {
+   public static String getRandom(Random rng) {
       return Singleton.INSTANCE.words[rng.nextInt(Singleton.INSTANCE.words.length)];
 
    }
